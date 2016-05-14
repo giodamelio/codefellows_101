@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #75B357;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background-color: #356E19;
+  color: #5C154C;
+  padding: 5px;
+  font-size: 20px;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  height: 25px;
+  padding: 12px 18px 8px 18px;
+  vertical-align: middle;
+}
+
+a {
+  color: #7F401C;
+}
+
+section {
+  display: block;
+  clear: both;
+  text-align: center;
+}
+
+section img {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+section button {
+  margin: 10px;  
+}
+
+footer {
+  width: 100%;
+  padding: 5px;
+  background-color: #356E19;
+  text-align: center;
+  color: #5C154C;
+  clear: both;
+  display: block;
+}
