@@ -1,26 +1,28 @@
-html {
-  height: 100%;
-}
-
 body {
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   background-color: #75B357;
   margin: 0;
 }
 
 header {
-  width: 100%;
-  text-align: center;
+  height: 75px;
   background-color: #356E19;
   color: #5C154C;
-  padding: 5px;
-  font-size: 20px;
-  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
 }
 
 nav {
-  display: flex;
-  justify-content: center;
+  height: 40px;
+  margin-bottom: 30px;
 }
 
 nav ul {
@@ -39,32 +41,26 @@ nav li a {
   vertical-align: middle;
 }
 
-a {
-  color: #7F401C;
-}
-
 section {
-  display: block;
-  clear: both;
-  text-align: center;
+  flex: auto;
 }
 
 section img {
   max-width: 800px;
   display: block;
-  margin: 0 auto;
 }
 
 section button {
-  margin: 10px;  
+  margin-bottom: 10px;
 }
 
 footer {
-  width: 100%;
-  padding: 5px;
+  height: 25px;
+  margin: 10px;
   background-color: #356E19;
-  text-align: center;
   color: #5C154C;
-  clear: both;
-  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 10px;
 }
